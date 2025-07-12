@@ -16,12 +16,9 @@
 
 ## 📽 Demo
 
-> 🎥 A quick video showing the chatbot in action
+Here’s a quick look at the chatbot in action 👇
 
-👇 
-
-```html
-<video src="demo.mp4" width="700" controls></video>
+https://github.com/masfaatanveer/QnA-Chatbot/demo.mp4
 ```
 
 ---
@@ -79,7 +76,7 @@ Ask anything similar to the dataset — and the bot will respond instantly.
 ├── chatbot.py            # Core TF-IDF + cosine chatbot class
 ├── data/
 │   └── qna_dataset.csv   # 1000+ question-answer pairs
-├── demo.mp4              # (Your demo video goes here)
+├── demo.mp4              
 ├── requirements.txt
 └── README.md
 ```
