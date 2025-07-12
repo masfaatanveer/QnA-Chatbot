@@ -90,7 +90,16 @@ Ask anything similar to the dataset — the bot will respond instantly.
 - Add feedback system to improve accuracy  
 - Upgrade to contextual memory (or RAG-based)  
 - Export chat history / save sessions  
-- Add voice (speech-to-text) support  
+- Add voice (speech-to-text) support
+
+
+---
+
+## 🌐 Connect & Demo
+
+🎥 See this project in action on my LinkedIn:  
+[🔗 Chatbot Demo + Post](https://www.linkedin.com/posts/masfa-tanveer-500474235_chatbot-python-nlp-activity-7347935609568518145-Otmx?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqflNABDO-d3KdS-_lrJVwZeZOZnyObKwc)
+
 
 ---
 
