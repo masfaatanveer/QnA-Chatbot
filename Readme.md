@@ -14,24 +14,13 @@
 
 ---
 
-## 📽 Demo
-
-> 🎥 A quick preview of QnA-Chatbot in action
-
-https://github.com/masfaatanveer/QnA-Chatbot/blob/363e1f8955b2ab1d2bf7c413bcf87f5a3a587718/demo.mp4
-
-
-
-```
-
----
 
 ## 🧠 How It Works
 
-- This chatbot reads a **CSV of 1000+ questions and answers** across various topics
+- Reads a **CSV of 1000+ questions and answers** across various topics
 - Converts user input + stored questions into **TF-IDF vectors**
 - Uses **cosine similarity** to find the best-matching response
-- If no match crosses a confidence threshold, it returns a fallback message
+- If no match crosses a confidence threshold, returns a fallback message
 - Runs inside a clean **Streamlit UI** for fast and easy use
 
 ---
@@ -61,17 +50,17 @@ cd QnA-Chatbot
 pip install -r requirements.txt
 ```
 
-3. **Run Streamlit app**  
+3. **Run the app**  
 ```bash
 streamlit run app.py
 ```
 
 4. **Chat away!**  
-Ask anything similar to the dataset — and the bot will respond instantly.
+Ask anything similar to the dataset — the bot will respond instantly.
 
 ---
 
-## 📁 File Structure
+## 📁 Project Structure
 
 ```
 📁 QnA-Chatbot/
@@ -79,7 +68,7 @@ Ask anything similar to the dataset — and the bot will respond instantly.
 ├── chatbot.py            # Core TF-IDF + cosine chatbot class
 ├── data/
 │   └── qna_dataset.csv   # 1000+ question-answer pairs
-├── demo.mp4              
+├── demo.mp4              # Optional demo file for reference
 ├── requirements.txt
 └── README.md
 ```
@@ -88,20 +77,20 @@ Ask anything similar to the dataset — and the bot will respond instantly.
 
 ## 🔥 Why This Project?
 
-- ⚡ Super lightweight — no LLM needed  
+- ⚡ Super lightweight — no LLMs or APIs needed  
 - 🚀 Fast inference with 1000+ real QnA samples  
-- 🧩 Easy to customize: just replace the CSV!  
-- 💬 Works offline, ideal for embedded or enterprise setups  
-- 🧠 Ideal for demos, helpdesk bots, AI interviews, or chatbot learning
+- 🧩 Easy to customize — just replace the CSV!  
+- 💬 Works offline — perfect for internal, embedded, or edge use  
+- 🧠 Great for demos, AI interviews, chatbot courses, or helpdesk bots
 
 ---
 
 ## 💡 Future Ideas
 
-- Add feedback system to improve answers  
-- Upgrade to contextual memory or RAG  
-- Export chat history  
-- Add speech-to-text input  
+- Add feedback system to improve accuracy  
+- Upgrade to contextual memory (or RAG-based)  
+- Export chat history / save sessions  
+- Add voice (speech-to-text) support  
 
 ---
 
@@ -114,6 +103,6 @@ Ask anything similar to the dataset — and the bot will respond instantly.
 
 ## 📄 License
 
-MIT License — free to use, modify, and deploy with credit.
+MIT License — Free to use, modify, and deploy with credit.
 
 ---
