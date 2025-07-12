@@ -16,9 +16,13 @@
 
 ## 📽 Demo
 
-Here’s a quick look at the chatbot in action 👇
+> 🎥 A quick preview of QnA-Chatbot in action
 
-https://github.com/masfaatanveer/QnA-Chatbot/demo.mp4
+<div align="center">
+  <video src="demo.mp4" width="700" controls></video>
+</div>
+
+
 ```
 
 ---
