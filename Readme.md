@@ -18,9 +18,8 @@
 
 > 🎥 A quick preview of QnA-Chatbot in action
 
-<div align="center">
-  <video src="demo.mp4" width="700" controls></video>
-</div>
+https://github.com/masfaatanveer/QnA-Chatbot/blob/363e1f8955b2ab1d2bf7c413bcf87f5a3a587718/demo.mp4
+
 
 
 ```
